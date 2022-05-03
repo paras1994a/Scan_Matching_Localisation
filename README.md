@@ -45,6 +45,14 @@ Once the project is running, click on the viewer and tap the UP key 3 times, wit
 
 # Video Demonstrations
 
-**Scan Matching Localization with LIDAR Point Clouds using Iterative Closest Point Algorithm
+**Scan Matching Localization with LIDAR Point Clouds using Iterative Closest Point Algorithm**
 
 https://youtu.be/khzQ2M7vSxU
+1. The Red box in video is the Virtual Car Ground truth pose in the Carla simulation environment <br />
+2. the Green box is the Estimated Pose of the car output by Localisation Algorithm.<br />
+3. The Blue Point cloud map of the simulated environment was mapped for the Carla driving scene.<br />
+4. The Lidar Scans in Red are provided at 20Hz by the virtual Lidar Sensor in Carla 
+ 
+
+**The green box should coincide or overlap with the red ground truth with sufficient accuracy of within 2m in order to properly localise the car**
+
