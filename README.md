@@ -6,6 +6,9 @@
 
 This project localises a virtual moving Car in Carla simulation environment.The simulator is continuously scanning the environment with a virtual lidar. ICP Scan Matching Algorithm in PCL is used to align these lidar scans with the Point cloud map to estimate the pose transform and Localise the car. This point cloud map of the scene has been extracted from the CARLA simulator.
 
+![](visualise3.gif)
+![](visualise.gif)
+
 Self-Driving Car Engineer Nanodegree<br/>
 https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013
 
@@ -42,5 +45,6 @@ Once the project is running, click on the viewer and tap the UP key 3 times, wit
 
 # Video Demonstrations
 
-**Scan Matching Localization with LIDAR Point Clouds - Algorithm 1: Normal Distributions Transform NDT<br/>
+**Scan Matching Localization with LIDAR Point Clouds using Iterative Closest Point Algorithm
 
+https://youtu.be/khzQ2M7vSxU
