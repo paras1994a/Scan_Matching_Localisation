@@ -4,7 +4,7 @@
 
 # Scan Matching Localization
 
-This project localises a virtual moving Car in Carla simulation environment.The simulator is continuously scanning the environment with a virtual lidar. ICP Scan Matching Algorithm in PCL is used to align these lidar scans with the Point cloud map to estimate the pose transform and Localise the car. This point cloud map of the scene has been extracted from the CARLA simulator.
+This project localises a virtual moving Car (Actor) in Carla simulation environment.The Ego vehicle is continuously scanning the environment with a virtual lidar in Carla. ICP Scan Matching Algorithm from Point Cloud Library is used to align these lidar scans with the Point cloud map to estimate the Pose over time and Localise the car. This point cloud map of the scene has been extracted from the CARLA simulator.
 
 ![](visualise3.gif)
 ![](visualise.gif)
